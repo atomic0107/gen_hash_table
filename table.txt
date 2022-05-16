@@ -1,0 +1,19 @@
+MOD 0
+sel_fm_1 sel_fm_0
+    FMCLK_A CTS0_A FMCLK_B RIF0_D1_B SD1_CD ― ― ― ― ―
+    FMIN_A RTS0_A FMIN_B SD0_DAT1 FMIN_C MSIOF0_SS2 ― ― ― ― ―
+sel_fso
+    FSO_CFE‗0_N_A TX2_A FSO_CFE_0_N_B SSI_SCK6 ― ― ― ― ―
+    FSO_CFE‗1_N_A RX2_A FSO_CFE_1_N_B SSI_WS6 ― ― ― ― ―
+    FSO_TOE_N_A USB30_OVC FSO_TOE_0_N_B SSI_SDATA6 ― ― ― ― ―
+
+MOD 1
+sel_hscif0
+    MSCK0_A SCK2_A HRX0_B SSI_SCK5 ― ― ― ― ―
+    HRX0_A TX2_A HSCK0_B SSI_SDATA5 ― ― ― ― ―
+
+sel_hscif1
+    MSCK0_A SCK2_A HSCK1_B SD0_CLK ― ― ― ― ―
+    HRX1_A RX0_A HRX1_B SD0_CMD ― ― ― ― ―
+
+
